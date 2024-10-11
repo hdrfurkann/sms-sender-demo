@@ -15,6 +15,8 @@ Yasal Sorumluluk: Kullanıcı, scriptin kullanımından doğabilecek herhangi bi
 
 Gizlilik İhlali: Kullanıcılar, başkalarının kişisel bilgilerini, telefon numaralarını veya diğer iletişim bilgilerini izinsiz olarak kullanmaktan kaçınmalıdır. Bu tür davranışlar, hem etik açıdan hem de yasal olarak sorun yaratabilir.
 
+Bu script yalnızca Türkiye numaralarında çalışır.
+
 [ EN ] [ ENGLISH ]
 
 This script is intended for educational and testing purposes. Its purpose is to test APIs and learn how to send requests in Python. Using this script for malicious purposes, causing harm to others, sending unsolicited messages (spam), or using it for illegal purposes is strictly prohibited. APIs are subject to usage terms set by developers, and violations of these terms may result in serious legal consequences. Please use this script within legal boundaries and in accordance with ethical guidelines.
@@ -28,3 +30,5 @@ Additional Warning: Users must comply with the usage terms and policies of the t
 Legal Responsibility: The user is fully responsible for any damage or loss that may arise from the use of this script. Users should avoid unauthorized access or behavior that may be considered as attacks to prevent misuse.
 
 Privacy Violation: Users should refrain from using others' personal information, phone numbers, or other contact details without permission. Such behavior can cause issues both ethically and legally.
+
+This script only works with Turkish phone numbers.
