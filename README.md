@@ -3,121 +3,28 @@ An application in Python that simulates SMS sending operations.
 
 [ TR ] [ TURKISH ]
 
-# UYARI:
-# Bu script, eğitim ve deneme amaçlı olarak yazılmıştır. Scriptin amacı, API'leri denemek ve 
-# Python'da isteklerin nasıl gönderileceğini öğrenmektir. Bu scripti kötüye kullanmak, başkalarına zarar vermek,
-# izinsiz mesajlar (spam) göndermek veya yasal olmayan amaçlar için kullanmak kesinlikle yasaktır.
-# API'ler, geliştiriciler tarafından belirlenen kullanım koşullarına tabidir ve bu koşullara aykırı kullanımlar
-# ciddi hukuki sonuçlar doğurabilir.
-# Lütfen bu scripti yasal sınırlar çerçevesinde ve etik kurallara uygun olarak kullanın.
-#
-# PREMADESOFT, bu scriptin kötüye kullanılması veya yasadışı eylemlerle ilişkilendirilmesi durumunda
-# herhangi bir sorumluluk kabul etmez. Scriptin kullanımı tamamen kullanıcının sorumluluğundadır.
-#
-# Dikkat: Bu scriptin kullanımında IP adresleri açık olduğundan, kullanıcıların gizlilik ve güvenliklerini
-# sağlamak için dikkatli olmaları önemlidir. Bu scripti kullanırken, yasal ve etik sınırlar içinde kalmak
-# her kullanıcının sorumluluğundadır. Kötüye kullanımlara karşı koruma mekanizması bulunmamaktadır.
-#
-# Ek Uyarı: Kullanıcıların, bu scripti kullanırken, hedef API'nin kullanım şartlarına ve politikalarına
-# uymaları gerekmektedir. Herhangi bir yasal sorunla karşılaşmamak için, scriptin işlevselliğini
-# sadece izinli ve yasal çerçevede kullanmanız önemlidir.
-#
-# Yasal Sorumluluk: Kullanıcı, scriptin kullanımından doğabilecek herhangi bir zarar veya kayıptan
-# tamamen sorumludur. Kötüye kullanımları önlemek amacıyla, yetkisiz erişim veya saldırı niteliğinde
-# davranışlardan kaçınılmalıdır.
-#
-# Gizlilik İhlali: Kullanıcılar, başkalarının kişisel bilgilerini, telefon numaralarını veya diğer
-# iletişim bilgilerini izinsiz olarak kullanmaktan kaçınmalıdır. Bu tür davranışlar, hem etik açıdan
-# hem de yasal olarak sorun yaratabilir.
+Bu script, eğitim ve deneme amaçlı olarak yazılmıştır. Scriptin amacı, API'leri denemek ve Python'da isteklerin nasıl gönderileceğini öğrenmektir. Bu scripti kötüye kullanmak, başkalarına zarar vermek, izinsiz mesajlar (spam) göndermek veya yasal olmayan amaçlar için kullanmak kesinlikle yasaktır. API'ler, geliştiriciler tarafından belirlenen kullanım koşullarına tabidir ve bu koşullara aykırı kullanımlar ciddi hukuki sonuçlar doğurabilir. Lütfen bu scripti yasal sınırlar çerçevesinde ve etik kurallara uygun olarak kullanın.
 
+PREMADESOFT, bu scriptin kötüye kullanılması veya yasadışı eylemlerle ilişkilendirilmesi durumunda herhangi bir sorumluluk kabul etmez. Scriptin kullanımı tamamen kullanıcının sorumluluğundadır.
+
+Dikkat: Bu scriptin kullanımında IP adresleri açık olduğundan, kullanıcıların gizlilik ve güvenliklerini sağlamak için dikkatli olmaları önemlidir. Bu scripti kullanırken, yasal ve etik sınırlar içinde kalmak her kullanıcının sorumluluğundadır. Kötüye kullanımlara karşı koruma mekanizması bulunmamaktadır.
+
+Ek Uyarı: Kullanıcıların, bu scripti kullanırken, hedef API'nin kullanım şartlarına ve politikalarına uymaları gerekmektedir. Herhangi bir yasal sorunla karşılaşmamak için, scriptin işlevselliğini sadece izinli ve yasal çerçevede kullanmanız önemlidir.
+
+Yasal Sorumluluk: Kullanıcı, scriptin kullanımından doğabilecek herhangi bir zarar veya kayıptan tamamen sorumludur. Kötüye kullanımları önlemek amacıyla, yetkisiz erişim veya saldırı niteliğindeki davranışlardan kaçınılmalıdır.
+
+Gizlilik İhlali: Kullanıcılar, başkalarının kişisel bilgilerini, telefon numaralarını veya diğer iletişim bilgilerini izinsiz olarak kullanmaktan kaçınmalıdır. Bu tür davranışlar, hem etik açıdan hem de yasal olarak sorun yaratabilir.
 
 [ EN ] [ ENGLISH ]
 
-# WARNING:
-# This script is intended for educational and testing purposes. Its purpose is to test APIs and 
-# learn how to send requests in Python. Using this script for malicious purposes, causing harm to others,
-# sending unsolicited messages (spam), or using it for illegal purposes is strictly prohibited.
-# APIs are subject to usage terms set by developers, and violations of these terms may result in
-# serious legal consequences.
-# Please use this script within legal boundaries and in accordance with ethical guidelines.
-#
-# PREMADESOFT accepts no responsibility for any misuse of this script or any association with illegal actions.
-# The use of the script is entirely the user's responsibility.
-#
-# Attention: Since IP addresses are exposed when using this script, users must be careful to ensure their
-# privacy and security. It is essential for every user to remain within legal and ethical boundaries while
-# using this script. There are no protective mechanisms against misuse.
-#
-# Additional Warning: Users must comply with the usage terms and policies of the target API when using
-# this script. To avoid any legal issues, it is important to use the functionality of the script only
-# within authorized and legal limits.
-#
-# Legal Responsibility: The user is fully responsible for any damage or loss that may arise from the
-# use of this script. Users should avoid unauthorized access or behavior that may be considered as
-# attacks to prevent misuse.
-#
-# Privacy Violation: Users should refrain from using others' personal information, phone numbers, or other
-# contact details without permission. Such behavior can cause issues both ethically and legally.
+This script is intended for educational and testing purposes. Its purpose is to test APIs and learn how to send requests in Python. Using this script for malicious purposes, causing harm to others, sending unsolicited messages (spam), or using it for illegal purposes is strictly prohibited. APIs are subject to usage terms set by developers, and violations of these terms may result in serious legal consequences. Please use this script within legal boundaries and in accordance with ethical guidelines.
 
+PREMADESOFT accepts no responsibility for any misuse of this script or any association with illegal actions. The use of the script is entirely the user's responsibility.
 
-[ DE ] [ DEUTSCH ]
+Attention: Since IP addresses are exposed when using this script, users must be careful to ensure their privacy and security. It is essential for every user to remain within legal and ethical boundaries while using this script. There are no protective mechanisms against misuse.
 
-# WARNUNG:
-# Dieses Skript ist für Bildungs- und Testzwecke gedacht. Der Zweck besteht darin, APIs zu testen und 
-# zu lernen, wie man in Python Anfragen sendet. Die Nutzung dieses Skripts für böswillige Zwecke, um anderen
-# Schaden zuzufügen, unerwünschte Nachrichten (Spam) zu senden oder es für illegale Zwecke zu verwenden,
-# ist strengstens untersagt. APIs unterliegen den von den Entwicklern festgelegten Nutzungsbedingungen, und
-# Verstöße gegen diese Bedingungen können schwerwiegende rechtliche Konsequenzen nach sich ziehen.
-# Bitte verwenden Sie dieses Skript innerhalb der gesetzlichen Grenzen und gemäß den ethischen Richtlinien.
-#
-# PREMADESOFT übernimmt keine Verantwortung für den Missbrauch dieses Skripts oder für eine Verbindung
-# mit illegalen Handlungen. Die Verwendung des Skripts liegt vollständig in der Verantwortung des Benutzers.
-#
-# Achtung: Da IP-Adressen bei der Verwendung dieses Skripts offen sind, müssen die Benutzer vorsichtig sein,
-# um ihre Privatsphäre und Sicherheit zu gewährleisten. Es ist wichtig, dass jeder Benutzer innerhalb
-# der gesetzlichen und ethischen Grenzen bleibt, während er dieses Skript verwendet. Es gibt keine Schutzmechanismen
-# gegen Missbrauch.
-#
-# Zusätzliche Warnung: Benutzer müssen bei der Verwendung dieses Skripts die Nutzungsbedingungen und -richtlinien
-# der Ziel-API einhalten. Um rechtliche Probleme zu vermeiden, ist es wichtig, die Funktionalität des Skripts
-# nur innerhalb autorisierter und gesetzlicher Grenzen zu nutzen.
-#
-# Rechtliche Verantwortung: Der Benutzer ist vollständig verantwortlich für Schäden oder Verluste, die aus
-# der Nutzung dieses Skripts entstehen können. Benutzer sollten unbefugten Zugriff oder Verhalten, das als
-# Angriffe betrachtet werden könnte, vermeiden, um Missbrauch zu verhindern.
-#
-# Datenschutzverletzung: Benutzer sollten davon absehen, persönliche Informationen, Telefonnummern oder andere
-# Kontaktdaten anderer ohne Erlaubnis zu verwenden. Solches Verhalten kann sowohl ethische als auch rechtliche
-# Probleme verursachen.
+Additional Warning: Users must comply with the usage terms and policies of the target API when using this script. To avoid any legal issues, it is important to use the functionality of the script only within authorized and legal limits.
 
+Legal Responsibility: The user is fully responsible for any damage or loss that may arise from the use of this script. Users should avoid unauthorized access or behavior that may be considered as attacks to prevent misuse.
 
-[ RU ] [ Русский ]
-
-# ПРЕДУПРЕЖДЕНИЕ:
-# Этот скрипт предназначен для образовательных и тестовых целей. Его цель - тестирование API и 
-# изучение того, как отправлять запросы на Python. Использование этого скрипта в злонамеренных целях, 
-# причинение вреда другим, отправка нежелательных сообщений (спама) или использование его для 
-# незаконных целей строго запрещено. API подлежат условиям использования, установленным разработчиками, 
-# и нарушения этих условий могут привести к серьезным правовым последствиям.
-# Пожалуйста, используйте этот скрипт в рамках закона и в соответствии с этическими нормами.
-#
-# PREMADESOFT не несет ответственности за любой неправильный использование этого скрипта или 
-# любые ассоциации с незаконными действиями. Использование скрипта полностью на ответственности пользователя.
-#
-# Внимание: Поскольку IP-адреса открыты при использовании этого скрипта, пользователям необходимо 
-# быть осторожными, чтобы обеспечить свою конфиденциальность и безопасность. Важно, чтобы каждый 
-# пользователь оставался в рамках закона и этических норм во время использования этого скрипта. 
-# Защита от злоупотреблений отсутствует.
-#
-# Дополнительное предупреждение: Пользователи должны соблюдать условия использования и 
-# политику целевого API при использовании этого скрипта. Чтобы избежать правовых проблем, 
-# важно использовать функциональность скрипта только в пределах разрешенных и законных рамок.
-#
-# Юридическая ответственность: Пользователь полностью несет ответственность за любой ущерб 
-# или убытки, которые могут возникнуть в результате использования этого скрипта. Пользователи должны 
-# избегать несанкционированного доступа или поведения, которое может рассматриваться как 
-# атака, чтобы предотвратить злоупотребление.
-#
-# Нарушение конфиденциальности: Пользователи должны воздерживаться от использования личной 
-# информации, номеров телефонов или других контактных данных других лиц без разрешения. 
-# Такое поведение может вызвать проблемы как с этической, так и с юридической стороны.
+Privacy Violation: Users should refrain from using others' personal information, phone numbers, or other contact details without permission. Such behavior can cause issues both ethically and legally.
